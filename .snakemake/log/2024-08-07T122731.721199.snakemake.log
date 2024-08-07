@@ -1,0 +1,6 @@
+Building DAG of jobs...
+MissingInputException in rule plot in file C:\Users\ssivagur\Documents\snakemake_test\Snakefile_plot, line 2:
+Missing input files for rule plot:
+    output: output/SecCSV.csv
+    affected files:
+        input/new.csv

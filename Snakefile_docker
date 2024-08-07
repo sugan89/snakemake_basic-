@@ -1,0 +1,11 @@
+conatiner: "docker://suganyasivaguru/bioimageanalysis_snakemake:v2"
+rule binary:
+    input:
+        "input/RPE.tif"
+    output:
+        "output/binary.png"
+    container:
+        None
+    script:
+        "code/ForDocker.py"
+    

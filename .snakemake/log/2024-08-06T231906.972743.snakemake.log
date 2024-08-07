@@ -1,0 +1,4 @@
+Building DAG of jobs...
+WildcardError in rule plot in file C:\Users\ssivagur\Documents\snakemake_test\Snakefile_plot, line 2:
+Wildcards in input files cannot be determined from output files: (rule plot, line 2, C:\Users\ssivagur\Documents\snakemake_test\Snakefile_plot)
+'sample'

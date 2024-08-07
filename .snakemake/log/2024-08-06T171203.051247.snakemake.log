@@ -1,0 +1,34 @@
+Building DAG of jobs...
+Provided cores: 16
+Rules claiming more threads will be scaled down.
+Job stats:
+job       count
+------  -------
+binary        1
+total         1
+
+Select jobs to execute...
+Execute 1 jobs...
+
+[Tue Aug  6 17:12:03 2024]
+localrule binary:
+    input: input/RPE.tif
+    output: output/binary.png
+    jobid: 0
+    reason: Missing output files: output/binary.png
+    resources: tmpdir=C:\Users\ssivagur\AppData\Local\Temp
+
+RuleException:
+CalledProcessError in file C:\Users\ssivagur\Documents\snakemake_test\Snakefile_docker, line 10:
+Command 'C:/Users/ssivagur/Anaconda3/envs/snakemake/python.exe "C:\Users\ssivagur\Documents\snakemake_test\.snakemake\scripts\tmpl03vgaoo.ForDocker.py"' returned non-zero exit status 1.
+[Tue Aug  6 17:12:03 2024]
+Error in rule binary:
+    jobid: 0
+    input: input/RPE.tif
+    output: output/binary.png
+
+Shutting down, this might take some time.
+Exiting because a job execution failed. Look above for error message
+Complete log: .snakemake\log\2024-08-06T171203.051247.snakemake.log
+WorkflowError:
+At least one job did not complete successfully.

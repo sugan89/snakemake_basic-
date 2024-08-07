@@ -1,0 +1,7 @@
+rule binary:
+    input:
+        "input/RPE.tif"
+    output:
+        "output/binary.png"
+    notebook:
+        "notebook/ForDocker.py.ipynb"

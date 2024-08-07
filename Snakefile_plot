@@ -1,0 +1,8 @@
+     
+rule plot:
+    input:
+        "input/df_grouped_byPlateandPertype.csv"
+    output:
+        "output/SecCSV.csv"
+    run:
+        "code/plot.py"

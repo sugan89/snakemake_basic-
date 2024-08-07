@@ -1,0 +1,9 @@
+rule binary:
+    input:
+        "input/RPE.tif"
+    output:
+        "output/binary.png"
+    conda:
+        "envs/conda.yaml"
+    script:
+        "code/ForDocker.py"

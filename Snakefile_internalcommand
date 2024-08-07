@@ -1,0 +1,7 @@
+rule internal:
+    input:
+        "output/new.csv"
+    output:
+        "output/SecCSV.csv"
+    shell:
+        "cp {input} {output}"

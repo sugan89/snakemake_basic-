@@ -1,0 +1,7 @@
+rule process:
+    input:
+        "input/df_grouped_byPlateandPertype.csv"
+    output:
+        "output/df_grouped_byPlateandPertype.csv"
+    run:
+        "echo {input} {output}"
